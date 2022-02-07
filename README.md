@@ -1,4 +1,6 @@
 <!-- this is a comment -->
+[This is a comment that will be hidden.]: #
+
 
 # Example 'Hello'
 This is an exmaple of a README file in markdown syntax.
@@ -6,6 +8,11 @@ This is an exmaple of a README file in markdown syntax.
 Headings can range from #1 to #6 (largest to smallest)
 
 Line 2 (needs to have a space between lines)
+
+&nbsp;&nbsp;&nbsp;&nbsp; To insert a tab
+
+
+
 
 *This is Italic*
 
@@ -16,6 +23,7 @@ _This is also Italic_
 __This is also bold__
 
 ~~This is strikethrough~~
+
 
 <!-- Horizonal Rule or Separator -->
 
@@ -48,6 +56,12 @@ To create an ordered list (use .1 for all):
 With title:
 [Link](https://replit.com/@leo976f/Project1 "This is the title/hint")
 
+Without formatting the link:
+
+<https://replit.com/@leo976f/Project1>
+
+<test@email.com>
+
 <!-- Inline codeblock use: (3) ```code_language  -->
 ```python
 def function()
@@ -73,6 +87,8 @@ Emoji:
 * [x] task 2
 * [ ] task 3
 
-To mention a note to someone:
-
-@To Someone
+> :warning: **Warning:** Do not push the big red button.
+>
+> :memo: **Note:** Sunrises are beautiful.
+> 
+> :bulb: **Tip:** Remember to appreciate the little things in life.
