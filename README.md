@@ -48,15 +48,30 @@ To create an ordered list (use .1 for all):
 With title:
 [Link](https://replit.com/@leo976f/Project1 "This is the title/hint")
 
-<!-- Inline code block -->
-'def function()
+<!-- Inline codeblock use: (3) ```code_language  -->
+```python
+def function()
   print('Hello!')
-'
+```
 
-
+<!-- to insert image-->
+![Markdown Logo](https://markdown-here.com/img/icon256.png "Logo")
 
 Emoji:
 :bowtie:
+
+<!-- for tables -->
+|col 1 |col 2 |
+|--------|-----------------|
+|item 1  |item 2           |
+|item 3  |item 4           |
+|item 5  |item 6           |
+|item 5  |item@example.com |
+
+<!-- Task List -->
+* [x] task 1
+* [x] task 2
+* [ ] task 3
 
 To mention a note to someone:
 
